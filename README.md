@@ -1,29 +1,26 @@
-### Different Slow Thinking Template
-
 ![Different slow thinking templates](slow-template-7b.png)
 
 *Figure 1.* Training score of Qwen-7B under two **different Slow Thinking templates**. "Slow Template A" and "Slow Template B" denote two Slow Thinking templates that differ from the one used in the main paper.
 
 
+
 | Template | NQ | TriviaQA | PopQA | HotpotQA | 2Wiki | Musique | Bamboogle | Avg. |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Slow Thinking Template A (explicit steps) | 0.432 | 0.636 | 0.426 | 0.380 | 0.375 | 0.172 | 0.418 | 0.406 |
 | Slow Thinking Template B (chain-of-thought) | 0.444 | 0.597 | 0.436 | 0.360 | 0.399 | 0.171 | 0.406 | 0.402 |
 | Slow Thinking Template C (paper) | 0.451 | 0.620 | 0.434 | 0.361 | 0.386 | 0.163 | 0.406 | 0.403 |
+| Fast Thinking template (Ours) | 0.463 | 0.640 | 0.458 | 0.427 | 0.360 | 0.156 | 0.453 | 0.422 |
 
-*Table 1.* Performance of three Slow Thinking templates on the evaluation benchmarks. Templates A and B differ from the Slow Thinking template used in the main paper, denoted here as Template C.
+*Table 1.* Performance comparison of three Slow Thinking templates and our Fast Thinking template. Templates A and B differ from the Slow Thinking template used in the main paper, denoted here as Template C.
 
 ---
 
-### Search Count Figure
 
 ![Search count figure](search-count-3b.png)
 
 *Figure 2.* Evolution of the **search count** for Qwen-3B under different settings. "w. reward" uses prompts with multiple search requirements and assigns corresponding rewards for multiple searches, whereas "w/o" uses the original strategy and reward. All other settings follow Section 3.1 (Experimental Setup) of the main paper.
 
 ---
-
-### seed
 
 
 ![Prompt template seed figure](prompt-template-seed.png)
@@ -42,7 +39,6 @@
 
 ---
 
-### Comparison with PPO (5-sample)
 
 | Policy | NQ | TriviaQA | PopQA | HotpotQA | 2Wiki | Musique | Bamboogle | Avg. |
 |--------|----|----------|-------|----------|-------|--------|-----------|------|
