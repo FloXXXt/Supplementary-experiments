@@ -1,4 +1,6 @@
-![Different slow thinking templates](slow-template-7b.png)
+<p align="center">
+  <img src="slow-template-7b.png" alt="Different slow thinking templates" width="70%">
+</p>
 
 *Figure 1.* Training score of Qwen-7B under two **different Slow Thinking templates**. "Slow Template A" and "Slow Template B" denote two Slow Thinking templates that differ from the one used in the main paper.
 
@@ -16,24 +18,32 @@
 ---
 
 
-![Search count figure](search-count-3b.png)
+<p align="center">
+  <img src="search-count-3b.png" alt="Search count figure" width="70%">
+</p>
 
 *Figure 2.* Evolution of the **search count** for Qwen-3B under different settings. "w. reward" uses prompts with multiple search requirements and assigns corresponding rewards for multiple searches, whereas "w/o" uses the original strategy and reward. All other settings follow Section 3.1 (Experimental Setup) of the main paper.
 
 ---
 
 
-![Prompt template seed figure](prompt-template-seed.png)
+<p align="center">
+  <img src="prompt-template-seed.png" alt="Prompt template seed figure" width="70%">
+</p>
 
 *Figure 3.* Training score of **prompt templates** under different seed settings. Fig. (a) shows the training score under Slow Thinking template. "Slow Template (previous)" denotes the training setup used in the paper, where the seed is set to null, while "Slow Template (seed 2026)" denotes the result obtained with the seed fixed at 2026. Fig. (b) shows the training score under Fast Thinking template."Fast Template (previous)" denotes the training setup used in the paper, where the seed is set to null, while "Fast Template (seed 2026)" denotes the result obtained with the seed fixed at 2026.
 
 
-![F1+ seed figure](f1plus-seed.png)
+<p align="center">
+  <img src="f1plus-seed.png" alt="F1+ seed figure" width="70%">
+</p>
 
 *Figure 4.* Training score of **F1+** under different seed settings. "f1+(previous)" denotes the training setup used in the paper, where the seed is set to null ; "f1+(seed2026)" denotes the result obtained with the seed fixed at 2026.
 
 
-![Reinforce seed figure](reinforce-seed.png)
+<p align="center">
+  <img src="reinforce-seed.png" alt="Reinforce seed figure" width="70%">
+</p>
 
 *Figure 5.* Training score of **Reinforce** under different seed settings. "reinforce (previous)" denotes the training setup used in the paper, where the seed is set to null ; "reinforce (seed2026)" denotes the result obtained with the seed fixed at 2026.
 
